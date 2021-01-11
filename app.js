@@ -4,6 +4,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
+  res.send('Feature 1 v1.1.0!')
 })
 
 app.listen(port, () => {
